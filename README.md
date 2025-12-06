@@ -306,4 +306,4 @@ To add new test scenarios:
 
 ## License
 
-MIT
+Apache License 2.0
