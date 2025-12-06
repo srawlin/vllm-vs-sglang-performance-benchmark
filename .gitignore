@@ -1,0 +1,48 @@
+# Environment variables with sensitive data
+.env
+*.env
+!.env.example
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+vastai_ed25519*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+
+# Results and data
+results/
+results_from_vastai/
+tests/
+*.json
+!data/*.json
+
+# Plots and reports
+*.png
+!docs/*.png
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log

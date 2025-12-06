@@ -1,0 +1,352 @@
+[
+  {
+    "id": "code_short_0",
+    "prompt": "Add error handling to this code:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_1",
+    "prompt": "Explain how this code works:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_2",
+    "prompt": "Add error handling to this code:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_3",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def p",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_4",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_5",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugg",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_6",
+    "prompt": "Explain how this code works:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_7",
+    "prompt": "Convert this code to use async/await:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_8",
+    "prompt": "Add unit tests for this code:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: i",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_9",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugg",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_10",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_11",
+    "prompt": "Add unit tests for this code:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: i",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_12",
+    "prompt": "Explain how this code works:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_13",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_14",
+    "prompt": "Convert this code to use async/await:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_15",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugges",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_16",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugges",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_17",
+    "prompt": "Explain how this code works:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: in",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_18",
+    "prompt": "Explain how this code works:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: in",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_19",
+    "prompt": "Add unit tests for this code:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: i",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_20",
+    "prompt": "Explain how this code works:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: in",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_21",
+    "prompt": "Convert this code to use async/await:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_22",
+    "prompt": "Explain how this code works:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_23",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugg",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_24",
+    "prompt": "Add unit tests for this code:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_25",
+    "prompt": "Explain how this code works:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_26",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugges",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_27",
+    "prompt": "Add error handling to this code:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_28",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_29",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_30",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_31",
+    "prompt": "Explain how this code works:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_32",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_33",
+    "prompt": "Explain how this code works:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self, key: in",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_34",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugges",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_35",
+    "prompt": "Debug this code and fix any issues:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_36",
+    "prompt": "Add error handling to this code:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_37",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_38",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugg",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_39",
+    "prompt": "Convert this code to use async/await:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_40",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_41",
+    "prompt": "Debug this code and fix any issues:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_42",
+    "prompt": "Review this code and suggest improvements:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_43",
+    "prompt": "Explain how this code works:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_44",
+    "prompt": "Convert this code to use async/await:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put(self",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_45",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\nclass LRUCache:\n    '''\n    Least Recently Used (LRU) cache implementation.\n    Uses OrderedDict for O(1) get and put operations.\n    '''\n    def __init__(self, capacity: int):\n        self.cache = {}\n        self.capacity = capacity\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n\n        self.order.remove(key)\n        self.order.append(key)\n        return self.cache[key]\n\n    def put",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_46",
+    "prompt": "Explain how this code works:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_47",
+    "prompt": "Refactor this code following best practices:\n\n```python\n\ndef binary_search(arr, target):\n    '''\n    Perform binary search on a sorted array.\n    Time complexity: O(log n)\n    Space complexity: O(1)\n    '''\n    left, right = 0, len(arr) - 1\n\n    while left <= right:\n        mid = (left + right) // 2\n\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n\n    return -1\n\n```\n\nProvide detailed feedback and sugg",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_48",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  },
+  {
+    "id": "code_short_49",
+    "prompt": "Optimize this code for better performance:\n\n```python\n\nasync function fetchUserData(userId) {\n    try {\n        const response = await fetch(`/api/users/${userId}`);\n\n        if (!response.ok) {\n            throw new Error(`HTTP error! status: ${response.status}`);\n        }\n\n        const data = await response.json();\n        return data;\n    } catch (error) {\n        console.error('Failed to fetch user data:', error);\n        throw error;\n    }\n}\n\n```\n\nProvide detailed feedback and suggestions.",
+    "type": "code",
+    "target_tokens": 128,
+    "max_tokens": 128
+  }
+]

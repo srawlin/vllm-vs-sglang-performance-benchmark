@@ -1,0 +1,702 @@
+[
+  {
+    "id": "short_chat_0",
+    "prompt": "What are the main differences between Python and JavaScript for web development?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_1",
+    "prompt": "What are the health benefits of intermittent fasting?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_2",
+    "prompt": "How can I improve my time management skills?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_3",
+    "prompt": "Explain the concept of compound interest with a simple example.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_4",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_5",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_6",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_7",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_8",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_9",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_10",
+    "prompt": "Can you explain how neural networks learn from data?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_11",
+    "prompt": "How do I optimize SQL queries for better performance?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_12",
+    "prompt": "How do I optimize SQL queries for better performance?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_13",
+    "prompt": "What are some effective strategies for learning a new language?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_14",
+    "prompt": "What causes inflation and how does it affect the economy?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_15",
+    "prompt": "What are some common cognitive biases and how do they affect decision making?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_16",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_17",
+    "prompt": "What causes inflation and how does it affect the economy?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_18",
+    "prompt": "What causes inflation and how does it affect the economy?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_19",
+    "prompt": "How can I improve my time management skills?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_20",
+    "prompt": "What are the main differences between Python and JavaScript for web development?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_21",
+    "prompt": "I'm planning a trip to Japan. What should I know about transportation?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_22",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_23",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_24",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_25",
+    "prompt": "What are some effective strategies for learning a new language?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_26",
+    "prompt": "Explain quantum computing in simple terms.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_27",
+    "prompt": "Explain the difference between abstract classes and interfaces.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_28",
+    "prompt": "What are the health benefits of intermittent fasting?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_29",
+    "prompt": "What are some common cognitive biases and how do they affect decision making?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_30",
+    "prompt": "How does the immune system fight off infections?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_31",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_32",
+    "prompt": "What are some common cognitive biases and how do they affect decision making?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_33",
+    "prompt": "What are the key principles of user experience design?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_34",
+    "prompt": "How do I optimize SQL queries for better performance?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_35",
+    "prompt": "What are the best practices for securing a REST API?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_36",
+    "prompt": "What are the main differences between Python and JavaScript for web development?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_37",
+    "prompt": "How can I improve my time management skills?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_38",
+    "prompt": "Explain the difference between abstract classes and interfaces.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_39",
+    "prompt": "How do I optimize SQL queries for better performance?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_40",
+    "prompt": "What are the best practices for securing a REST API?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_41",
+    "prompt": "What are some common cognitive biases and how do they affect decision making?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_42",
+    "prompt": "Explain the concept of compound interest with a simple example.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_43",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_44",
+    "prompt": "What are the health benefits of intermittent fasting?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_45",
+    "prompt": "What are the health benefits of intermittent fasting?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_46",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_47",
+    "prompt": "What are the health benefits of intermittent fasting?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_48",
+    "prompt": "Explain quantum computing in simple terms.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_49",
+    "prompt": "Explain the concept of compound interest with a simple example.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_50",
+    "prompt": "How can I improve my time management skills?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_51",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_52",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_53",
+    "prompt": "What are some effective strategies for learning a new language?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_54",
+    "prompt": "What causes inflation and how does it affect the economy?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_55",
+    "prompt": "Can you explain how neural networks learn from data?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_56",
+    "prompt": "What are the key principles of user experience design?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_57",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_58",
+    "prompt": "What are some common cognitive biases and how do they affect decision making?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_59",
+    "prompt": "Can you explain how neural networks learn from data?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_60",
+    "prompt": "Explain the difference between abstract classes and interfaces.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_61",
+    "prompt": "What are some effective strategies for learning a new language?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_62",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_63",
+    "prompt": "What causes inflation and how does it affect the economy?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_64",
+    "prompt": "What are the best practices for securing a REST API?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_65",
+    "prompt": "What are the best practices for securing a REST API?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_66",
+    "prompt": "Can you explain how neural networks learn from data?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_67",
+    "prompt": "Can you explain how neural networks learn from data?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_68",
+    "prompt": "I'm planning a trip to Japan. What should I know about transportation?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_69",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_70",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_71",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_72",
+    "prompt": "What are the key principles of user experience design?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_73",
+    "prompt": "What are the best practices for securing a REST API?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_74",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_75",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_76",
+    "prompt": "I'm planning a trip to Japan. What should I know about transportation?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_77",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_78",
+    "prompt": "What causes inflation and how does it affect the economy?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_79",
+    "prompt": "What are the main differences between Python and JavaScript for web development?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_80",
+    "prompt": "How do I optimize SQL queries for better performance?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_81",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_82",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_83",
+    "prompt": "How does blockchain technology work?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_84",
+    "prompt": "How does the immune system fight off infections?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_85",
+    "prompt": "Explain the concept of compound interest with a simple example.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_86",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_87",
+    "prompt": "What are the best practices for securing a REST API?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_88",
+    "prompt": "What are the main differences between Python and JavaScript for web development?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_89",
+    "prompt": "How does the immune system fight off infections?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_90",
+    "prompt": "Explain the Byzantine Generals Problem in distributed systems.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_91",
+    "prompt": "What causes climate change and what can we do about it?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_92",
+    "prompt": "What are some effective strategies for learning a new language?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_93",
+    "prompt": "Explain the concept of compound interest with a simple example.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_94",
+    "prompt": "How do I optimize SQL queries for better performance?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_95",
+    "prompt": "What are the key principles of user experience design?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_96",
+    "prompt": "Explain the difference between abstract classes and interfaces.",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_97",
+    "prompt": "What's the difference between machine learning and deep learning?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_98",
+    "prompt": "How do I debug a memory leak in my Node.js application?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  },
+  {
+    "id": "short_chat_99",
+    "prompt": "What are some effective strategies for learning a new language?",
+    "type": "chat",
+    "target_tokens": 32,
+    "max_tokens": 128
+  }
+]
